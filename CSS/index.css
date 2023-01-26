@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 3px white;
+    border: none;
+}
+
+
+/*
+header {
+    text-align: center;
+    background-image: url(../img/fondo.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 100%;
+    font-size: 50px;
+    margin: 0;
+}*/
+
+.curriculum{
+  background-image: url(../img/fondo.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 20%;
+  font-size: 50px;
+  margin: 0;
+  color: white;
+  
+  
+}
+
+#cv {
+  text-align: center;
+    color: white;
+    padding: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(7, 5, 12, 0.75);
+    margin: 0 auto;
+    font-size: 20px;
+    width: 100%;
+}
+
+.imagen {
+    background-image: url(../img/fondo.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+.sobre-mi{
+    float:left;
+    padding: 30px;
+    background-color: rgba(100, 100, 101, 0.644);
+    width: 50%;
+    margin: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 40%;
+    
+
+}
+
+.educacion {
+    float: right;
+    padding: 30px;
+    background-color: rgba(100, 100, 101, 0.644);
+    width: 50%;
+    margin: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 40%;
+   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .experiencia-laboral {
+    background-color: rgba(100, 100, 101, 0.644);
+    float: left;
+    padding: 30px;
+    width: 50%;
+    margin: 40px;
+    color: white;
+    border-radius: 5px;
+    width: 40%;
+  }
+
+  .contenedor {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/fondo.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: none;
+  }
+
+  .contenedor2 {
+     width: 100%;
+    text-align: center;
+    display: grid;
+      flex-direction: column;
+      align-items: center;
+    background-image: url(../img/fondo.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+
+  .contacto {
+    background-color: rgba(100, 100, 101, 0.644);
+    float: right;
+    padding: 30px;
+    width: 50%;
+    margin: 40px;
+    color: white;
+    border-radius: 5px;
+    width: 40%
+   
+
+  }
+
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+
+
+  @media screen and (max-width: 767px) {
+    
+    .curriculum{
+      padding: 100px;
+    }
+    
+    .contenedor2 {
+      width: 99%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: lightgray;
+      background-image: url(../img/fondo.jfif);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-size: 40px;
+      float: left;
+     }
+    }
+     
+   
+
+    .sobre-mi{
+        padding: 40px;
+    }
+
+    #cv{
+        font-size: 70px;
+        padding: 40px;
+    }
+  
+
+  button {
+    text-align: center;
+  }
+
+  #exp-lab{
+    display: none;
+  }
+
+  #exp-la{
+    display: none;
+  }
+  
+  #sob-mi {
+    display: none;
+  }
+
+  #contact {
+    display: none;
+  }
+
+  #education {
+    display: none;
+  }
+
+  button{
+    text-align: center;
+  }
